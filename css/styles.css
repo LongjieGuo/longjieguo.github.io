@@ -1,0 +1,151 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+a:link {
+    color: #2962FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #2962FF;
+}
+
+.project a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project a:visited {
+    color: grey;
+}
+
+.profile-photo {
+    object-fit: cover;
+    border-radius: 100px;
+    width: 140px;
+    height: 140px;
+}
+
+.top-row-container {
+    display: flex;
+}
+
+.top-row-left-col {
+    width: 75%
+}
+
+.top-row-right-col {
+    width: 25%;
+}
+
+/* Style page content */
+.main {
+    /* margin-left: 400px;
+    margin-right: 80px; */
+    margin: 0 15% 0 15%;
+    padding-top: 15vh;
+    padding-bottom: 30vh
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.project {
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.project-left-col {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.project-right-col {
+    width: 70%;
+}
+
+.mentor {
+    font-style: italic;
+    color: grey;
+}
+
+.project-discription {
+    line-height: 1.5;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+}
+
+.navigation-bar {
+    text-align: right;
+    margin-right: 15%;
+}
+
+.navigation-bar a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-bar a:hover {
+    text-decoration: underline;
+}
+
+.navigation-bar a:visited {
+    color: black;
+}
+
+.email {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 670px) {
+    .main {margin: 0 5% 0 5%;}
+    .navigation-bar {margin-right: 8%;}
+    .project {display: block; margin-bottom: 25px;}
+    .project-left-col {width: 100%; margin-right: 0;}
+    .project-right-col {width: 100%;}
+    .top-row-container {display: block; text-align: center;}
+    .top-row-left-col {width: 100%;}
+    .top-row-right-col {width: 100%;}
+    .intro {text-align: center;}
+    .rightmost-icon {margin-right: 0px;}
+}
