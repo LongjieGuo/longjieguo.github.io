@@ -139,7 +139,7 @@ a:visited {
 
 @media only screen and (max-width: 670px) {
     .main {margin: 0 5% 0 5%;}
-    .navigation-bar {margin-right: 8%;}
+    .navigation-bar {margin-right: 5%;}
     .project {display: block; margin-bottom: 25px;}
     .project-left-col {width: 100%; margin-right: 0;}
     .project-right-col {width: 100%;}
@@ -148,4 +148,5 @@ a:visited {
     .top-row-right-col {width: 100%;}
     .intro {text-align: center;}
     .rightmost-icon {margin-right: 0px;}
+    .profile-photo {margin-top: 10px;}
 }
