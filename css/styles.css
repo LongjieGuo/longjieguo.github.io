@@ -1,7 +1,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
-    font-size: 1.1em;
+    
     line-height: 1.5;
 }
 
@@ -37,7 +37,7 @@ a:visited {
 
 .project a:link {
     color: grey;
-    text-decoration: none;
+    text-decoration: non;
 }
 
 .project a:hover {
@@ -77,7 +77,7 @@ a:visited {
 }
 
 .project-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
 }
 
@@ -98,6 +98,7 @@ a:visited {
 .author {
     font-style: italic;
     color: grey;
+    font-size: 14px;
 }
 
 .project-discription {
