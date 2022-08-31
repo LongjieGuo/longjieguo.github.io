@@ -73,7 +73,7 @@ a:visited {
     margin-right: 80px; */
     margin: 0 15% 0 15%;
     padding-top: 15vh;
-    padding-bottom: 30vh
+    padding-bottom: 15vh;
 }
 
 .project-title {
@@ -95,7 +95,7 @@ a:visited {
     width: 70%;
 }
 
-.mentor {
+.author {
     font-style: italic;
     color: grey;
 }
