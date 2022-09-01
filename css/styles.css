@@ -48,6 +48,16 @@ a:visited {
     color: grey;
 }
 
+/* .project a:after {
+    content: '';
+    width: 1em;
+    background: url('/img/external_link.svg') no-repeat right center;
+    background-color: black;
+    color: grey;
+    display: inline-block;
+    background-size: 100% 100%;
+} */
+
 .profile-photo {
     object-fit: cover;
     border-radius: 100px;
@@ -78,30 +88,15 @@ a:visited {
 
 .research {
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 20px;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+    row-gap: 2%;
 }
 
 .project-title {
     font-size: 20px;
     font-weight: bolder;
 }
-
-/*
-.project {
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 10px;
-} */
-
-/*
-    material design animation
-*/
-/* .project:hover {
-    
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.1s cubic-bezier(.25,.8,.25,1);
-} */
 
 .project-thumbnail {
     width: 100%;
@@ -121,8 +116,20 @@ a:visited {
     line-height: 1.5;
 }
 
+/*
+Material design shadow and transition:
+https://codepen.io/sdthornton/pen/wBZdXq
+*/
 .project-image {
+    border-radius: 2.5%;
     width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: 10px;
+}
+
+.project-image:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .icon {
@@ -134,6 +141,7 @@ a:visited {
 .navigation-bar {
     text-align: right;
     margin-right: 15%;
+    margin-top: 10px;
 }
 
 .navigation-bar a:link {
