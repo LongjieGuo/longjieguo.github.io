@@ -172,6 +172,10 @@ https://codepen.io/sdthornton/pen/wBZdXq
     margin: 2px 5px 2px 0px;
 }
 
+.intro b {
+    font-weight: 900;
+}
+
 @media only screen and (max-width: 675px) {
     .main {margin: 0 5% 0 5%;}
     .navigation-bar {margin-right: 5%;}
