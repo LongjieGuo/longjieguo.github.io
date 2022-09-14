@@ -25,7 +25,8 @@ h2 {
 
 a:link {
     color: #2962FF;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
 }
 
 a:hover {
@@ -38,12 +39,14 @@ a:visited {
 
 .project a:link {
     color: grey;
-    text-decoration: non;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
-.project a:hover {
+/* .project a:hover {
     text-decoration: underline;
-}
+    
+} */
 
 .project a:visited {
     color: grey;
@@ -151,7 +154,7 @@ https://codepen.io/sdthornton/pen/wBZdXq
 }
 
 .navigation-bar a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .navigation-bar a:visited {
