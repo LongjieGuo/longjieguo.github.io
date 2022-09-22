@@ -23,18 +23,20 @@ h2 {
     margin-top: 0px;
 }
 
+
+
 a:link {
-    color: #2962FF;
+    color: black;
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: grey;
 }
 
 a:visited {
-    color: #2962FF;
+    color: black;
 }
 
 .project a:link {
@@ -45,7 +47,6 @@ a:visited {
 
 /* .project a:hover {
     text-decoration: underline;
-    
 } */
 
 .project a:visited {
